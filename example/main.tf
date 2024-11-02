@@ -1,6 +1,6 @@
 
 module "vpn_connection" {
-  source = "git::https://github.com/DNXLabs/terraform-aws-vpn-connection?ref=1.0.0"
+  source = "git::https://github.com/Jhajeen01/vpn-for-aws-using-terraform?ref=1.0.0"
   vpc_id                                    = ""
   vpn_gateway_amazon_side_asn               = 64512
   customer_gateway_bgp_asn                  = 65000
